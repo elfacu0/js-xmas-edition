@@ -23,4 +23,5 @@ function probarValidardescripcion() {
     "Falló la comprobacion de descripcion nula");
     console.assert(validarDescripcionRegalo(descripcion) !== "Mucha descripcion",
     "Falló la comprobacion de descripcion para muchos caracteres");
+    console.assert (validarDescripcionRegalo(descripcion) !== "" , "No hubo errores" );
 }
